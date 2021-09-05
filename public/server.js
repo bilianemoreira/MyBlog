@@ -16,7 +16,7 @@ app.listen("3000", () => {
   console.log('listening......');
 })
 
-app.get('/editor', (req, res) => {
+app.get('editor', (req, res) => {
   res.sendFile(path.join(initial_path, "editor.html"));
 })
 
@@ -33,8 +33,18 @@ app.post('/upload', (req, res) => {
       if(err){
           throw err;
       } else{
-          // our image upload path
+          // image upload path
           res.json(`uploads/${imagename}`)
       }
   })
 })
+
+//blog and 404 route  
+app.get("/:blog", (req, res) => {
+  res.sendFile(path.join(initial_path, "blog.html"));
+})
+
+app.use((req, res) => {
+  res.json("404");
+})
+
