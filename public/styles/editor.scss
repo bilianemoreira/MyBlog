@@ -11,11 +11,6 @@ body {
   font-family: "poppins", sans-serif;
 }
 
-::-moz-selection {
-  background: #1b1b1b;
-  color: #fff;
-}
-
 ::selection {
   background: #1b1b1b;
   color: #fff;
@@ -92,6 +87,7 @@ body {
 }
 
 /*editor styles 2*/
+
 .blog {
   width: 70vw;
   min-width: 400px;
@@ -123,16 +119,6 @@ textarea::-webkit-scrollbar-thumb {
   border: none;
   padding: 10px;
   border-radius: 10px;
-}
-
-.title::-moz-placeholder,
-.article::-moz-placeholder {
-  color: #2d2d2d;
-}
-
-.title:-ms-input-placeholder,
-.article:-ms-input-placeholder {
-  color: #2d2d2d;
 }
 
 .title::placeholder,
@@ -174,4 +160,4 @@ textarea::-webkit-scrollbar-thumb {
   color: #fff;
   margin-left: 20px;
   font-size: 14px;
-} /*# sourceMappingURL=editor.css.map */
+}
