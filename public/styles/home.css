@@ -24,17 +24,15 @@ body {
 
 .navbar {
   width: 100%;
-  height: 25px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4vw 2vw;
+  padding: 50px;
   position: fixed;
   z-index: 9;
   top: 0;
   left: 0;
-  margin-left: auto;
-  margin-right: auto;
   background: #01191D;
 }
 
@@ -51,7 +49,7 @@ body {
   color: #F6FAED;
   font-family: Archivo, Arial, sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .logo {
@@ -61,66 +59,66 @@ body {
 
 .header {
     width: 100%;
-    padding: 10vh 6vh;
-    height: 50rem;
+    padding: 30px;
+    height: 700px;
+    margin-top: 60px;
     background-image: url(../img/background-responsive.jpg);
     background-size: cover;
+    align-content: center;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
     
-    
-   
 }
 
  .myphoto {
-  width: 368px;
-  height: 480px;
-  border-radius: 10px;
-  margin: 20px;
+  width: 150px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 10px;
 }
 
-.description {
-  width: 600px;
-  height: 500px;
-  margin-left: 1.5em;
-}
+
 
 .no-fill {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 10px;
-  width: 450px;
-  height: 150px;
+  width: 400px;
+  height: 100px;
   font-family: Cabin, Consolas, "Courier New", monospace;
   text-decoration: none;
-  line-height: 3rem;
+  line-height: 2rem;
   font-style: normal;
-  margin: 0;
+
+  
 }
 
 .about-blog {
-  margin-top: 1em;
-  margin-bottom: 1.8em;
+  padding: 2rem 0;
   width: 400px;
   height:120px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 2.1rem;
   font-family: Cabin, Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: rgb(255, 247, 247);
   font-style: normal;
-  align-self: flex-end;
+  
 }
 
 .social-icons {
-  padding-top: 0.5em;
+  padding-top: 2rem;
   display: flex;
   align-content: space-around;
+  
 }
 .social-icons a {
-  padding: 8px;
+  padding: 5px;
 }
 
 .social-icons img {
@@ -138,6 +136,7 @@ body {
   margin-right: 40px;
 }
 
+
 #search {
   border: none;
   border-bottom: 4px solid #025954;
@@ -149,8 +148,6 @@ body {
   background-repeat: no-repeat;
   padding-left: 50px; 
   align-items: flex-end;
-
-  
 }
 
 hr {
@@ -161,171 +158,13 @@ hr {
 
 /*For Ipad*/
 @media only screen and (max-width: 1024px) {
-  .navbar {
-    width: 100%;
-    height: 8em;
-    padding: 1em;
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #fff;
-    z-index: 9;
-  }
-
-  .links-container {
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 0.2em;
-    
-  }
-
-  .links-container li {
-    align-self: center;
-    font-size: 25px;
-    text-decoration: none;
-    color: #1b1415;
-    font-family: Archivo, Arial, sans-serif;
-    font-weight: 700;
-  }
-
-  .logo {
-    width: 80px;
-    height: 80px;
-    margin-right: 2em;
-  }
-
-  .header {
-    width: 100%;
-    height: 65vh;
-    background-image: url("../img/background-responsive.jpg");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-self: center;
-    padding: 1rem;
-  }
-
-  .no-fill {
-    color: #fff;
-    font-size: 1.6rem;
-    margin: 2em 0 0.3em 0;
-    padding-bottom: 0.4em;
-    padding-top: 2em;
-    width: 16em;
-    height: 8em;
-    font-family: Archivo, Consolas, "Courier New", monospace;
-    text-decoration: none;
-    line-height: 3rem;
-    font-style: normal;
-    align-self: center;
-  }
   
-  .about-blog {
-    padding-right: 2em;
-    padding-top: 1.6em;
-    margin-left: 4rem;
-    width: 16em;
-    height: 8em;
-    font-weight: 600;
-    line-height: 1.9rem;
-    font-family: Cabin, Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    color: rgb(255, 247, 247);
-    font-style: normal;
-    align-self: flex-end;
-  }
-} /*For Ipad*/
 
 
 
 /*For Mobile*/
 @media only screen and (max-width: 401px) {
-  .navbar {
-    width: 100%;
-    height: 8em;
-    margin-bottom: 4rem;
-    padding: 1em;
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #fff;
-    z-index: 9;
-  }
-
-  .links-container {
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0.2em;
-    
-  }
-
-  .links-container li {
-    padding-top: 1rem;
-    align-self: center;
-    font-size: 30px;
-    text-decoration: none;
-    color: #1b1415;
-    font-family: Archivo, Arial, sans-serif;
-    font-weight: 700;
-  }
-
-  .logo {
-    width: 60px;
-    height: 60px;
-    margin-right: 2em;
-  }
-
-  .header {
-    width: 100%;
-    height: 60vh;
-    background-image: url("../img/background-responsive.jpg");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-self: center;
-    padding: 1rem;
-  }
-
-  .no-fill {
-    color: #fff;
-    font-size: 1.5rem;
-    margin: 3em 0 0.3em 0;
-    padding-bottom: 0.4em;
-    padding-top: 3em;
-    width: 13em;
-    height: 8em;
-    font-family: Archivo, Consolas, "Courier New", monospace;
-    text-decoration: none;
-    line-height: 2rem;
-    font-style: normal;
-    align-self: center;
-  }
-  
-  .about-blog {
-    padding-right: 2em;
-    padding-top: 1.5em;
-    margin-left: 4rem;
-    width: 18em;
-    height: 8em;
-    font-weight: 600;
-    line-height: 1.5rem;
-    font-family: Cabin, Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    color: rgb(255, 247, 247);
-    font-style: normal;
-    align-self: flex-end;
-  }
-}
+ 
 /*For mobile*/
 
 
