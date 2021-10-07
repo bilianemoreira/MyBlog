@@ -34,6 +34,7 @@ body {
   top: 0;
   left: 0;
   background: #01191D;
+
 }
 
 .links-container {
@@ -50,6 +51,15 @@ body {
   font-family: Archivo, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
+  text-decoration: none;
+ 
+
+}
+
+.navbar a:hover {
+  position: relative;
+  color: #beff04;
+ 
 }
 
 .logo {
@@ -59,7 +69,7 @@ body {
 
 .header {
     width: 100%;
-    padding: 30px;
+    padding: 40px;
     height: 700px;
     margin-top: 60px;
     background-image: url(../img/background-responsive.jpg);
@@ -159,12 +169,11 @@ hr {
 /*For Ipad*/
 @media only screen and (max-width: 1024px) {
   
-
-
+}
 
 /*For Mobile*/
 @media only screen and (max-width: 401px) {
- 
+}
 /*For mobile*/
 
 
@@ -243,6 +252,40 @@ hr {
   color: #beff04;
 }
 
+.social-icons {
+  display: flex;
+  
+}
+
+.social-icons a {
+  padding: 0.7em;
+}
+
+.social-icons a:hover {
+  animation: bounce 0.3s;
+  animation-duration: 0.8s;
+    animation-iteration-count: initial;
+    transform-origin: bottom;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+
 .social-icons img {
   color: #beff04;
+  width: 60px;
+  height: 60px;
 }
+
+
+
+
+
+
+
+
